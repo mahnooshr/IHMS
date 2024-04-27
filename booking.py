@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 import sqlite3
 from datetime import datetime
 
-app = Flask(__name__)
+
 
 # Connect to SQLite database
 conn = sqlite3.connect('appointments.db', check_same_thread=False)
